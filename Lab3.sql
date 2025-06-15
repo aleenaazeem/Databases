@@ -1,5 +1,5 @@
 DROP TABLE IF EXISTS dbo.Orders;
---Here we are creating a table called orders
+
 CREATE TABLE Orders (
     OrderID INT,
     CustomerID INT,
