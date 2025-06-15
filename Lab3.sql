@@ -10,7 +10,7 @@ CREATE TABLE Orders (
 
 DROP PROCEDURE IF EXISTS sp_Insert_Orders_Aleena;
 GO
---here we are creating store procedure
+
 CREATE PROCEDURE sp_Insert_Orders_Aleena
 AS
 BEGIN
