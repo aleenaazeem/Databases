@@ -1,6 +1,5 @@
 DROP TABLE IF EXISTS dbo.Orders;
 --Here we are creating a table called orders
---That has Order ID as primary key, Then customerID , OrderDate,  TotalAmount
 CREATE TABLE Orders (
     OrderID INT,
     CustomerID INT,
