@@ -39,7 +39,7 @@ END;
 GO
 
 EXEC sp_Insert_Orders_Aleena;
---Now we will use statistics for the time and IO
+
 SET STATISTICS IO ON;
 SET STATISTICS TIME ON;
 
