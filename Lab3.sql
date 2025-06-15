@@ -7,7 +7,7 @@ CREATE TABLE Orders (
     TotalAmount DECIMAL(10, 2),
     Status VARCHAR(10)
 );
---Here we are checking if the procedure exists already then drop it
+
 DROP PROCEDURE IF EXISTS sp_Insert_Orders_Aleena;
 GO
 --here we are creating store procedure
