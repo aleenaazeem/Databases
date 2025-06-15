@@ -47,6 +47,6 @@ SELECT * FROM Orders WHERE OrderID = 1;
 
 SET STATISTICS IO OFF;
 SET STATISTICS TIME OFF;
---now we are indexing OrderID
+
 CREATE CLUSTERED INDEX IX_OrderID ON Orders(OrderID);
 
