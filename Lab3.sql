@@ -37,7 +37,7 @@ BEGIN
     OPTION (MAXRECURSION 0);
 END;
 GO
---this executes the store procedure
+
 EXEC sp_Insert_Orders_Aleena;
 --Now we will use statistics for the time and IO
 SET STATISTICS IO ON;
